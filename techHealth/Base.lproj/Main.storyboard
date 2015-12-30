@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="techHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Abo-B1-s3p">
+                                <rect key="frame" x="263" y="550" width="75" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s20-QL-i2J">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="30"/>
+                                        <state key="normal" title="techHealth"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FN1-ut-iFp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="leading" secondItem="Abo-B1-s3p" secondAttribute="leading" id="3Oc-s8-bxr"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="trailing" secondItem="Abo-B1-s3p" secondAttribute="trailingMargin" id="6wD-nm-YKw"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="top" secondItem="Abo-B1-s3p" secondAttribute="top" id="7Nv-xm-pPB"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="leading" secondItem="Abo-B1-s3p" secondAttribute="leading" id="8kM-xb-4yC"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="top" secondItem="Abo-B1-s3p" secondAttribute="top" id="CEu-ux-rCo"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="centerX" secondItem="Abo-B1-s3p" secondAttribute="centerX" id="Etm-oO-7N2"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="leading" secondItem="Abo-B1-s3p" secondAttribute="leading" id="Evy-EU-6ch"/>
+                                    <constraint firstAttribute="bottom" secondItem="s20-QL-i2J" secondAttribute="bottom" id="IpJ-kd-L9w"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="bottom" secondItem="Abo-B1-s3p" secondAttribute="bottomMargin" id="QzB-ae-tJk"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="top" secondItem="Abo-B1-s3p" secondAttribute="top" id="TJI-y4-vzk"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="top" secondItem="Abo-B1-s3p" secondAttribute="topMargin" id="YOQ-Xz-EEO"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="centerY" secondItem="Abo-B1-s3p" secondAttribute="centerY" id="bab-sv-meM"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="leading" secondItem="Abo-B1-s3p" secondAttribute="leadingMargin" id="d0w-jx-scm"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="leading" secondItem="Abo-B1-s3p" secondAttribute="leading" id="du4-6B-fHg"/>
+                                    <constraint firstAttribute="trailing" secondItem="s20-QL-i2J" secondAttribute="trailing" id="jRK-Cd-zFT"/>
+                                    <constraint firstAttribute="bottom" secondItem="s20-QL-i2J" secondAttribute="bottom" id="pra-wD-Xn1"/>
+                                    <constraint firstItem="s20-QL-i2J" firstAttribute="top" secondItem="Abo-B1-s3p" secondAttribute="top" id="y1v-ah-VzW"/>
+                                    <constraint firstAttribute="trailing" secondItem="s20-QL-i2J" secondAttribute="trailing" id="zl8-O2-WE8"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmK-DW-Vry">
+                                <rect key="frame" x="279" y="309" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BmK-DW-Vry" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="289" id="FNs-ps-rR2"/>
+                            <constraint firstItem="BmK-DW-Vry" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IBI-fU-xdv"/>
+                            <constraint firstItem="Abo-B1-s3p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qVs-gw-Wgm"/>
+                            <constraint firstAttribute="bottom" secondItem="Abo-B1-s3p" secondAttribute="bottom" constant="20" symbolic="YES" id="u6r-5z-Psu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainLabel" destination="BmK-DW-Vry" id="nw7-nU-Be8"/>
+                        <outlet property="techHealth" destination="8bC-Xf-vdC" id="12n-AQ-F8T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

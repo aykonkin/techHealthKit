@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>techHealthKit.xcscheme</key>
+		<key>techHealth.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DBD5286A1BF4931B00BA3E7C</key>
+		<key>DB76DE5D1BEB58E0002546E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

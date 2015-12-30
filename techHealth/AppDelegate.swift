@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  techHealthKit
+//  techHealth
 //
-//  Created by Anatoly Konkin on 11/12/15.
+//  Created by Anatoly Konkin on 11/5/15.
 //  Copyright © 2015 Anatoly Konkin. All rights reserved.
 //
 
